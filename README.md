@@ -1,13 +1,13 @@
 # 📉 Telecom Customer Churn Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-deployment-link-goes-here.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://churnpredictionapp-afecolrw8tzptdbxsmanwk.streamlit.app/)
 
 ## 📌 Project Overview
 This project is an end-to-end Machine Learning pipeline designed to predict customer churn in the telecommunications industry. By analyzing customer demographics, account information, and service usage, the model identifies high-risk customers, allowing businesses to take proactive retention measures.
 
 ## 🚀 Live Web Application
 The predictive model is deployed as an interactive web application using Streamlit.
-* **Try it live here:** [Insert Link Here]
+* **Try it live here:** https://churnpredictionapp-afecolrw8tzptdbxsmanwk.streamlit.app/
 
 ## 🧠 Technical Architecture
 * **Data Preprocessing:** Implemented a robust Scikit-Learn `ColumnTransformer` pipeline to automatically handle scaling (StandardScaler) and One-Hot Encoding, preventing data leakage and training-serving skew.
