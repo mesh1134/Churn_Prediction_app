@@ -43,7 +43,6 @@ with col2:
     tech_support = st.selectbox("Tech Support", ["Yes", "No", "No internet service"])
 
 # 3. Collect Data into a DataFrame
-# IMPORTANT: The column names MUST match your training data exactly
 input_data = pd.DataFrame({
     'SeniorCitizen': [senior_citizen],
     'Partner': [partner],
